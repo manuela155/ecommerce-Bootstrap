@@ -70,3 +70,8 @@
 .car3:hover{
     box-shadow: 2px 0 0 5px #ff5dff6e;
 }
+.container1{
+    background-image: url(../images/slider/texture-1264022__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
