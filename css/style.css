@@ -16,7 +16,11 @@
 .actives{
     color: #ff5dff;
 }
-.nav-link::after{
+.dropdown-item:hover{
+    color: #ff5dff;
+    background-color: #ff5dff28;
+}
+/* .nav-link::after{
     content: '';
     width: 0%;
     height: 2px;
@@ -24,7 +28,7 @@
     display: block;
     margin: auto;
     transition: all ease-in-out 0.5s;
-}
+} */
 .titre::after{
     content: '';
     width: 0%;
@@ -53,9 +57,15 @@
 #ico1:hover{
     color: #ff5dff;
 }
-.nav-link:hover::after{
-    width: 50%;
+.cer1{
+    color: #ff5dff;
+    width: 50px;
+    height: 50px;
+    background-color: #ff5dff13;
 }
+/* .nav-link:hover::after{
+    width: 50%;
+} */
 .titre:hover::after{
     width: 20%;
 }
